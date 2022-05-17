@@ -26,3 +26,13 @@ var partnerName=`Carissa`;
 var numberChildren=1;
 
 document.writeln(`<p>I will be a ${jobTitle} in ${geoLocation}, and my partner is ${partnerName} and i have ${numberChildren} kid.</p>`)
+
+let clientName="guy";
+let clientEmail="guy@icloud.com";
+let monthlySalary=2000;
+
+document.write(`
+    <p> Name: ${clientName}</p>
+    <p> Email: ${clientEmail}</p>
+    <p> Salary (Yearly): ${monthlySalary*12}</p>
+`);
