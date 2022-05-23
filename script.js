@@ -32,7 +32,7 @@ let clientEmail="guy@icloud.com";
 let monthlySalary=2000;
 
 document.write(`
-    <p> Name: ${clientName}</p>
+    <p> Name: ${clientNamevar}</p>
     <p> Email: ${clientEmail}</p>
     <p> Salary (Yearly): ${monthlySalary*12}</p>
 `);
